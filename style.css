@@ -8,5 +8,30 @@ body {
 }
 
 h1, h2 {
-    color: #fafafa;
+    color: #141414;
+    font-weight: 700;
+}
+
+.hero{
+    position: absolute;
+    width: 90vw;
+}
+
+.title {
+    position: relative;
+    left: 20px;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 400px;
+}
+
+.profile-pic img{
+    width: 90%;
+    height:400px;
+    filter: grayscale(1);
+    object-fit: cover;
 }
