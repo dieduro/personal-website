@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Bio from '../components/Bio'
+import SocialBar from '../components/SocialBar'
 
 export default function Home() {
   return (
@@ -10,9 +12,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">Diego Duro</h1>
-        <h2>Front-End Developer</h2>
-        <img src="/prof-pic-480.png" alt="Profile Picture"/>
+        <Bio />
+        <SocialBar />
       </main>
 
       <footer>
@@ -34,12 +35,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-        }
-        
-        h1, h2 {
-            color: #fafafa;
-        }
-      
+        }   
 
         main {
           padding: 5rem 0;
@@ -73,28 +69,6 @@ export default function Home() {
         a {
           color: inherit;
           text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
         }
 
         .description {
