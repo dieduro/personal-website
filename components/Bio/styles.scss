@@ -1,9 +1,23 @@
 h1 {
-  font-size: 2em;
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.3em;
 }
 
 h1, h2 {
     color: #fafafa;
+    margin: 10;
+}
+
+.description {
+  
+  margin-top: 30px;
+  p {
+    color: #fafafa;
+    text-align: center;
+  }
 }
 
 .profilePic {

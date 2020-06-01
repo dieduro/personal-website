@@ -67,7 +67,6 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
           text-decoration: none;
         }
 

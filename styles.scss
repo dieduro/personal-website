@@ -24,7 +24,11 @@ time, mark, audio, video {
 
 a {
     text-decoration: none;
-}
+    color:#fafafa;
+}        /* Unvisited link  */
+a:visited {color:#fafafa;} /* Visited link    */
+a:hover {color:#fafafa;}   /* Mouse over link */
+a:active {color:#fafafa;}  /* Selected link   */
 
 a:focus {
     outline: thin dotted;
