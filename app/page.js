@@ -1,16 +1,11 @@
-import Head from 'next/head'
-import Bio from '../components/Bio'
-import SocialBar from '../components/SocialBar'
+"use client";
+
+import Bio from '../components/Bio';
+import SocialBar from '../components/SocialBar';
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Diego Duro</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
-      </Head>
-
       <main>
         <Bio />
         <SocialBar />
@@ -35,7 +30,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-        }   
+        }
 
         main {
           padding: 5rem 0;
@@ -135,21 +130,6 @@ export default function Home() {
           }
         }
       `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
-  )
+  );
 }
