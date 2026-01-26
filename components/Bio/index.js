@@ -7,6 +7,7 @@ const Bio = () => {
         <>
             <h1 className={style.title}>Diego Duro</h1>
             <h2>Front-End Developer</h2>
+            <h2>padre de Clementina</h2>
             <section className={style.description}>
                 <p>Este sitio está en contrucción,</p><p> I can do better than this ;-)</p>
                 <br/>
