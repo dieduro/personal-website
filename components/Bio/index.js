@@ -1,10 +1,10 @@
 import react from 'react'
-import style from './styles.scss'
+import style from './styles.module.scss'
 
 const Bio = () => {
 
     return (
-        <>
+        <div className={style.root}>
             <h1 className={style.title}>Diego Duro</h1>
             <h2>Front-End Developer</h2>
             <h2>padre de Clementina</h2>
@@ -16,7 +16,7 @@ const Bio = () => {
             <br />
             <img className={style.profilePic} src="/prof-pic-480.png" alt="Profile Picture"/>
             <br />
-        </>
+        </div>
     )
 }
 

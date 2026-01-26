@@ -1,10 +1,9 @@
-import style from './styles.scss'
-import {Link} from 'next'
+import style from './styles.module.scss'
 
 const SocialBar = () => {
     
     return (
-        <>
+        <div className={style.root}>
             <p>Y estas son mis redes; podés contactarme por ahí.</p>
             <ul className={style.list}>
                 <li> 
@@ -31,7 +30,7 @@ const SocialBar = () => {
                     </a>
                 </li>
             </ul>
-        </>
+        </div>
     )
 }
 
